@@ -1,82 +1,81 @@
 #include <stdio.h>
 
+#define SIZE 5
+
 void main()
 {
-#pragma region 반복문
-	// 프로그램 내에서 특정한 작업을 반복적으로
-	// 수행하는 명령문입니다.
+#pragma region 자료형 변환
+	// 서로 다른 자료형을 가지고 있는 변수끼리 연산이
+	// 이루어질 때 기존에 지정했던 자료형을 다른 자료형
+	// 으로 변환하는 과정입니다.
 
-#pragma region 증감 연산자
-	// 피연산자를 하나씩 증가시키거나 감소시킬 때
-	// 사용하는 연산자입니다.
+#pragma region 암묵적 형 변환
+	// 서로 다른 자료형으로 연산이 이루어질 때 자료형의
+	// 크기가 더 큰 자료형으로 변환되는 과정입니다.
 
-	// int protine = 0;
+	// int defense = 10;
+	// float endurance = 3.5f;
 	// 
-	// int calorie = ++protine;
-	// 
-	// printf("calorie : %d\n", calorie);
-	// printf("protine : %d\n", protine);
-	// 
-	// calorie = --protine;
-	// 
-	// printf("calorie : %d\n", calorie);
-	// printf("protine : %d\n", protine);
+	// printf("defense + endurance : %f\n", defense + endurance);
 
-	// 전위 증감 연산자는 변수의 값을 증감시킨 후에
-	// 연산을 수행합니다.
-
-	// int moisture = 0;
-	// 
-	// int weight = moisture++;
-	// 
-	// printf("moisture : %d\n", moisture);
-	// printf("weight : %d\n", weight);
-	// 
-	// weight = moisture--;
-	// 
-	// printf("moisture : %d\n", moisture);
-	// printf("weight : %d\n", weight);
-
+	// 표현 범위가 작은 데이터에 표현 범위가 큰 데이터를
+	// 저장하게 되면 암묵적으로 데이터 손실이 발생합니다.
 #pragma endregion
 
-#pragma region for문
-	// 초기식을 연산하여 조건식의 결과에 따라 특정한
-	// 횟수만큼 반복하는 반복문입니다.
+#pragma region 명시적 형 변환
+	// 연산이 이루어지기 전에 사용자가 직접 자료형을
+	// 변환하는 과정입니다.
 
-	// for (int i = 0; i < 5; i++)
+	// int critical = 10;
+	// int penetration = 3;
+	// 
+	// float attack = (float)critical / penetration;
+	// 
+	// printf("attack : %f", attack);
+
+	// 정수형 변수끼리 연산을 수행하게 되면 정수의 결과
+	// 값만 가질 수 있습니다.
+#pragma endregion
+
+#pragma region 단축 평가 계산
+	// 계산을 진행하는 도중에 결과가 이미 확정된 경우,
+	// 나머지 계산을 생략하는 과정입니다.
+
+	// int x = 0;
+	// int y = 0;
+	// 
+	// if (x != 0 && y++)
 	// {
-	// 	  printf("Execute\n");
+	//     printf("short circuit");
 	// }
-
-	// 반복문이 동작되는 순서는 초기화 → 조건 검사 → 증감의 구조로 동작합니다.
-#pragma endregion
-
-#pragma region while문
-	// 특정 조건을 만족할 때까지 계속해서 주어진 명령문을 실행하는 반복문입니다.
-
-	// int count = 1;
 	// 
-	// while (count <= 5)
+	// if (x == 0 || y++)
 	// {
-	//     printf("count : %d\n", count);
-	// 
-	// 	   count++;
+	//     printf("first OR operation\n");
 	// }
+	// 
+	// if (x != 0 || y++)
+	// {
+	// 	   printf("second OR operation\n");
+	// }
+	// 
+	// printf("y의 값 : %d\n", y);
 
-	// 반복문은 순차적으로 실행하면서 조건 분기(Branch)를 만나게 되면, 어느 쪽으로
-	// 실행 흐름이 갈지 미리 예측(branch prediction)합니다.
 #pragma endregion
 
-#pragma region do while문
-	// 조건과 상관없이 한 번의 작업을 수행한 다음 조건에 따라 명령문을 실행하는 반복문입니다.
+#pragma region 매크로
+	// 프로그램 내에서 특정한 데이터가 문자열로 정의되고
+	// 처리되는 과정입니다.
 
-	// int connect = 0;
-	// 
-	// do 
-	// {
-	// 	 printf("Access");
-	// } while (connect > 3);
+	// printf("매크로 SIZE의 값 : %d\n", SIZE);
 
+	// 매크로의 경우 자료형이 존재하지 않으므로 메모리 공간을
+	// 가지고 있지 않습니다.
+	
+	// ex) SIZE = 100;
+
+	// 매크로의 과정은 컴파일 이전에 실행되며, 각 매크로가 실행될 때
+	// 매크로의 대체 목록을 넣어야 하므로 프로그램의 크기가 커지게 됩니다.
 #pragma endregion
 
 #pragma endregion
