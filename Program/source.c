@@ -1,82 +1,58 @@
 #include <stdio.h>
 
-#define SIZE 5
-
 void main()
 {
-#pragma region 자료형 변환
-	// 서로 다른 자료형을 가지고 있는 변수끼리 연산이
-	// 이루어질 때 기존에 지정했던 자료형을 다른 자료형
-	// 으로 변환하는 과정입니다.
+#pragma region 주소 연산자
+	// 변수의 주소 값을 반환하는 연산자입니다.
 
-#pragma region 암묵적 형 변환
-	// 서로 다른 자료형으로 연산이 이루어질 때 자료형의
-	// 크기가 더 큰 자료형으로 변환되는 과정입니다.
-
-	// int defense = 10;
-	// float endurance = 3.5f;
+	// int data = 10;
 	// 
-	// printf("defense + endurance : %f\n", defense + endurance);
+	// printf("data 변수의 주소 : %p", &data);
 
-	// 표현 범위가 작은 데이터에 표현 범위가 큰 데이터를
-	// 저장하게 되면 암묵적으로 데이터 손실이 발생합니다.
+	// 데이터의 주소는 해당 데이터가 저장된 메모리의 시작 주소를
+	// 의미하며, 메모리의 공간은 1 byte의 크기로 나누어 표현합니다.
 #pragma endregion
 
-#pragma region 명시적 형 변환
-	// 연산이 이루어지기 전에 사용자가 직접 자료형을
-	// 변환하는 과정입니다.
-
-	// int critical = 10;
-	// int penetration = 3;
-	// 
-	// float attack = (float)critical / penetration;
-	// 
-	// printf("attack : %f", attack);
-
-	// 정수형 변수끼리 연산을 수행하게 되면 정수의 결과
-	// 값만 가질 수 있습니다.
-#pragma endregion
-
-#pragma region 단축 평가 계산
-	// 계산을 진행하는 도중에 결과가 이미 확정된 경우,
-	// 나머지 계산을 생략하는 과정입니다.
-
-	// int x = 0;
-	// int y = 0;
-	// 
-	// if (x != 0 && y++)
-	// {
-	//     printf("short circuit");
-	// }
-	// 
-	// if (x == 0 || y++)
-	// {
-	//     printf("first OR operation\n");
-	// }
-	// 
-	// if (x != 0 || y++)
-	// {
-	// 	   printf("second OR operation\n");
-	// }
-	// 
-	// printf("y의 값 : %d\n", y);
-
-#pragma endregion
-
-#pragma region 매크로
-	// 프로그램 내에서 특정한 데이터가 문자열로 정의되고
-	// 처리되는 과정입니다.
-
-	// printf("매크로 SIZE의 값 : %d\n", SIZE);
-
-	// 매크로의 경우 자료형이 존재하지 않으므로 메모리 공간을
-	// 가지고 있지 않습니다.
+#pragma region 표준 입력 함수
+	// 여러 종류의 데이터를 다양한 서식에 맞추어
+	// 입력해주는 함수입니다.
 	
-	// ex) SIZE = 100;
+	// int x = 0;
+	// 
+	// // 표준 입력 함수는 입력을 수행할 때까지 다음 작업으로
+	// // 넘어갈 수 없습니다.
+	// 
+	// printf("x 변수의 값을 입력 : ");
+	// 
+	// scanf_s("%d", &x);
+	// 
+	// // 버퍼는 데이터가 이동할 때 임시로 저장되는 공간이며,
+	// // 서식 지정자에 따라 입력할 수 있는 데이터의 범위도 결정됩니다.
+	// 
+	// printf("x의 값 : %d\n", x);
 
-	// 매크로의 과정은 컴파일 이전에 실행되며, 각 매크로가 실행될 때
-	// 매크로의 대체 목록을 넣어야 하므로 프로그램의 크기가 커지게 됩니다.
+	// 표준 입력 함수로 데이터를 입력하게 되면 버퍼에 데이터를 보관
+	// 하였다가 입력하는 순간 버퍼 안의 내용을 프로그램에 전송합니다.
 #pragma endregion
+
+#pragma region 포인터
+	// 메모리의 주소 값을 저장할 수 있는 변수입니다.
+
+	int storage = 10;
+
+	int * pointer = &storage;
+
+	// 포인터가 가리키는 메모리 공간의 자료형은 알 수 없으므로,
+	// 포인터가 가리키는 메모리의 자료형을 선언해주어야 합니다.
+
+	printf("storage의 주소 : %p\n", &storage);
+	printf("pointer의 값 : %p\n", pointer);
+	printf("pointer의 주소 : %p\n", &pointer);
+
+	*pointer = 99;
+
+	printf("storage의 값 : %d\n", storage);
+	printf("pointer변수가 가리키는 값 : %d\n", *pointer);
 
 #pragma endregion
 
