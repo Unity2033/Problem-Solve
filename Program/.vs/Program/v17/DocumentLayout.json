@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{43E91087-1F1F-47F3-B8D9-3EDB43235B12}|Program.vcxproj|solutionrelative:source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F9BD0AE0-D787-45F3-8015-F3F45B85AB58}|..\\Class13th (Struct)\\Class13th (Struct).vcxproj|C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class13th (Struct)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57C25C44-A371-4D77-92E4-63D754490999}|..\\Class12th (Dynamic Allocation)\\Class12th (Dynamic Allocation).vcxproj|C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class12th (Dynamic Allocation)\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -79,18 +82,18 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class12th (Dynamic Allocation)\\source.c",
-              "RelativeDocumentMoniker": "..\\Class12th (Dynamic Allocation)\\source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class12th (Dynamic Allocation)\\source.c",
-              "RelativeToolTip": "..\\Class12th (Dynamic Allocation)\\source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAywCcAAAARAAAA",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class13th (Struct)\\source.c",
+              "RelativeDocumentMoniker": "..\\Class13th (Struct)\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class13th (Struct)\\source.c",
+              "RelativeToolTip": "..\\Class13th (Struct)\\source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-01-05T11:35:06.497Z",
+              "WhenOpened": "2026-01-06T12:28:18.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class11th (Storage)\\source.c",
               "RelativeDocumentMoniker": "..\\Class11th (Storage)\\source.c",
@@ -102,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class10th (Function)\\source.c",
               "RelativeDocumentMoniker": "..\\Class10th (Function)\\source.c",
@@ -114,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class9th (Array)\\source.c",
               "RelativeDocumentMoniker": "..\\Class9th (Array)\\source.c",
@@ -126,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class8th (Pointer)\\source.c",
               "RelativeDocumentMoniker": "..\\Class8th (Pointer)\\source.c",
@@ -138,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class7th (Type Conversion)\\source.c",
               "RelativeDocumentMoniker": "..\\Class7th (Type Conversion)\\source.c",
@@ -150,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class6th (Iteration Statement)\\source.c",
               "RelativeDocumentMoniker": "..\\Class6th (Iteration Statement)\\source.c",
@@ -162,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class5th (Conditional Statement)\\source.c",
               "RelativeDocumentMoniker": "..\\Class5th (Conditional Statement)\\source.c",
@@ -174,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class4th (Overflow \u0026 Underflow)\\source.c",
               "RelativeDocumentMoniker": "..\\Class4th (Overflow \u0026 Underflow)\\source.c",
@@ -186,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class3th (Bit)\\source.c",
               "RelativeDocumentMoniker": "..\\Class3th (Bit)\\source.c",
@@ -198,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class2th (Variable \u0026 Constant)\\source.c",
               "RelativeDocumentMoniker": "..\\Class2th (Variable \u0026 Constant)\\source.c",
@@ -210,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "stdio.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
@@ -222,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class1th (Compile)\\source.c",
               "RelativeDocumentMoniker": "..\\Class1th (Compile)\\source.c",
@@ -240,10 +243,22 @@
               "RelativeDocumentMoniker": "source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Program\\source.c",
               "RelativeToolTip": "source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-10T12:22:10.725Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class12th (Dynamic Allocation)\\source.c",
+              "RelativeDocumentMoniker": "..\\Class12th (Dynamic Allocation)\\source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Problem-Solve\\Class12th (Dynamic Allocation)\\source.c",
+              "RelativeToolTip": "..\\Class12th (Dynamic Allocation)\\source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAywCcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-05T11:35:06.497Z"
             }
           ]
         },
